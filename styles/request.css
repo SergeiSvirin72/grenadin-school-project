@@ -1,0 +1,43 @@
+.request {
+	padding: 32px 0;
+}
+
+.request h1 {
+	margin-bottom: 16px;
+}
+
+.request .form-show {
+	display: none;
+}
+
+.request .form-group select {
+	display: inline-block;
+	margin-top: 8px;
+	max-width: 100%;
+	width: auto;
+}
+
+.request b {
+	display: block;
+	margin-bottom: 16px;
+}
+
+.request .form-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;	
+}
+
+.request .form-group {
+	margin: 8px 4px;
+	min-width: 280px;
+	flex-grow: 1;
+}
+
+.request .form-control {
+	width: 100%;
+}
+
+

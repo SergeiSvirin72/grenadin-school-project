@@ -1,0 +1,102 @@
+.participation {
+	padding: 32px 0;
+}
+
+.participation h1 {
+	margin-bottom: 32px;
+}
+
+.participation .feature-name {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 8px 0;
+}
+
+.participation .feature-name i {
+	background: #df4b42;
+	color: white;
+	padding: 15px 8px;
+	font-size: 56px;
+	text-align: center;
+	margin-right: 16px;
+	min-width: 86px;
+}
+
+.participation .feature-name a {
+	text-decoration: none;
+	color: #212529;
+}
+
+.participation .feature-name a:hover {
+	color: #df4b42;
+}
+
+.participation .feature-show {
+	display: none;
+}
+
+.participation .sponsor-show {
+	display: none;
+}
+
+.participation .feature-wrapper > div{
+	border: 1px solid rgba(0,0,0,.125);
+    border-radius: 4px;
+	/*box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);*/
+	padding: 12px 12px 12px 12px;
+}
+
+.feature-corner, .feature-scheme {
+	text-align: center;
+}
+
+.feature-corner img, .feature-scheme img {
+	margin-top: 8px;
+	max-width: 600px;
+	width: 100%;
+}
+
+
+.feature-advantages li{
+	margin-left: 30px;
+
+	line-height: 1.5;
+}
+
+.participation .outer-list li {
+	font-size: 18px;
+	margin-left: 30px;
+	line-height: 1.5;
+}
+
+.participation .inner-list li {
+	font-size: 16px;
+}
+
+.participation .outer-list a{
+	display: block;
+	padding: 8px 0 4px 0;
+	color: #007bff;
+    text-decoration: none;
+}
+
+.participation .outer-list a:hover {
+	color: #0050A6;
+    text-decoration: underline;
+}
+
+.text-danger {
+	text-align: center;
+	color: #df4b42;
+	margin: 16px 0 0 0;
+}
+
+@media screen and (max-width: 576px) {
+	.participation .feature-name {
+		flex-direction: column;
+	}
+}
+

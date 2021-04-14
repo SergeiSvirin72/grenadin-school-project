@@ -1,0 +1,37 @@
+.news, .albums, .media, .requests {
+	padding: 32px 0;
+}
+
+.news .btn-success, .albums .btn-success, .media .btn-success{
+	display: inline-block;
+	margin: 8px 0 16px 0;
+}
+
+.news .table td:nth-child(2) a,
+.albums .table td:nth-child(2) a,
+.media .table td:nth-child(3) a,
+.requests .table td:nth-child(2) a {
+	color: #212529;
+	text-decoration: none;
+}
+
+.news .table td, .albums .table td, .media .table  td, .requests .table  td {
+	text-align: center;
+}
+
+.media .table img {
+	max-width: 100px;
+	max-height: 65px;
+}
+
+.requests .form-group {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.requests .form-control {
+	flex-grow: 1;
+	margin-right: 8px;
+}

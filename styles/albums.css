@@ -1,0 +1,20 @@
+.albums {
+	padding: 32px 0;
+}
+
+.albums h1 {
+	margin-bottom: 16px;
+}
+
+.albums h5 {
+	margin-bottom: 4px;
+}
+
+.albums a {
+	text-decoration: none;
+	color: #212529;
+}
+
+.albums a:hover {
+	color: #df4b42;
+}
